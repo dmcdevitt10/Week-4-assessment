@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#goalInput {
+    width: 300px;
+}
+
+#add-goal {
+    width: 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

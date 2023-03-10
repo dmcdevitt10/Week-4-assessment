@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+
+    <form id="goal-form" >
+      What is one of your goals right now?
+      <input id="goalInput" placeholder="Type goal here">
+      <button id='add-goal-button'>Add goal</button>
+    </form>
+
+    <ol id="goalList"></ol>
+
+    <form id="progress-goal-form">
+      Already started a goal?
+      <input id="progress-goal-input" placeholder="Type goal here (use same spelling)">
+      <button id="progress-goal-button">Update goal</button>
+    </form>
+
+    <form id="delete-goal-form">
+      Completed a goal? Which one?
+      <input id="delete-goal-input" placeholder="Type goal here (use same spelling)">
+      <button id="delete-goal-button">Update List</button>
+    </form>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
